@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 class Point {
 	String id
 	double x,y;
@@ -73,6 +76,11 @@ class Point {
 		System.out.println("x:"+ this.x +"y:"+this.y);
 	}
 
+}
+
+class Canvas{
+	List <Point> Points = new ArrayList<>();
 
 
+	
 }
